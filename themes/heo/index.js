@@ -414,10 +414,10 @@ const Layout404 = props => {
                 <h1 className="error-title font-extrabold md:text-9xl text-7xl">
                   404
                 </h1>
-                <div>请尝试站内搜索寻找文章</div>
+                <div>請嘗試站内搜索尋找文章</div>
                 <Link href="/">
                   <button className="bg-blue-500 p-2 text-white shadow rounded-lg hover:bg-blue-600 hover:shadow-md duration-200 transition-all">
-                    回到主页
+                    回到主頁面
                   </button>
                 </Link>
               </div>
