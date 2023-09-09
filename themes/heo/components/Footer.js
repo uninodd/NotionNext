@@ -13,9 +13,8 @@ const Footer = ({ title }) => {
     return currentYear
   })()
 
-  return 
-    (
-<footer
+  return (
+        <footer
             className='relative z-10 flex-shrink-0 bg-white dark:bg-[#1a191d] justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm'
         >
 
@@ -32,14 +31,14 @@ const Footer = ({ title }) => {
             <br />
 
             {/* 底部页面信息 */}
-            //<div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#30343f]'>
+            <div id='footer-bottom' className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#30343f]'>
 
                 <div id='footer-bottom-left'>
-                   Uninodd {BLOG.VERSION} <i className='fas fa-copyright' /> {`${copyrightDate}`} <i className='mx-1 animate-pulse fas fa-heart' /> <a href={BLOG.LINK} className='underline font-bold  dark:text-gray-300 '>{BLOG.AUTHOR}</a>.
+                   uninodd <a href={BLOG.LINK} className='underline font-bold  dark:text-gray-300 '>{BLOG.AUTHOR}</a>.
                 </div>
 
-           //<div id='footer-bottom-right'>
-                {BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{BLOG.BEI_AN}</a></>}*/
+            <div id='footer-bottom-right'>
+                {BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{BLOG.BEI_AN}</a></>}
 
                 <span className='hidden busuanzi_container_site_pv'>
                     <i className='fas fa-eye' /><span className='px-1 busuanzi_value_site_pv'> </span>  </span>
@@ -50,8 +49,8 @@ const Footer = ({ title }) => {
 
             </div>
         </div>
-        </footer>
-                  )
+        </footer >
+  )
 }
 
 export default Footer
