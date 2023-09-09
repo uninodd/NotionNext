@@ -98,9 +98,9 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
-  SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
+  SOCIAL_CARD_TITLE_1: 'Discord',
+  SOCIAL_CARD_TITLE_2: '加入香香的箱箱',
+  SOCIAL_CARD_TITLE_3: '點擊成為風鈴草或綿羊',
   SOCIAL_CARD_URL: 'https://discord.gg/f2fCXbGnjP',
 
   // *****  以下配置无效，只是预留开发 ****
