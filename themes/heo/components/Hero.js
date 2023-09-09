@@ -70,7 +70,7 @@ function Banner(props) {
   function handleClickBanner() {
     const randomIndex = Math.floor(Math.random() * latestPosts.length)
     const randomPost = latestPosts[randomIndex]
-    router.push(https://www.youtube.com/@uni_DD/)
+    router.push(`https://www.youtube.com/@uni_DD/`)
   }
 //`${BLOG.SUB_PATH}/${randomPost?.slug}`
   return (
