@@ -33,10 +33,10 @@ export default function ArticleCopyright () {
             {path}
           </a>
         </li>
-        <li>
+        /*<li>
           <strong className='mr-2'>{locale.COMMON.COPYRIGHT}:</strong>
           {locale.COMMON.COPYRIGHT_NOTICE}
-        </li>
+        </li>*/
       </ul>
     </section>
   )
