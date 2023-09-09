@@ -28,7 +28,7 @@ const Footer = ({ title }) => {
             <div className='w-full h-24'>
                 <SocialButton />
             </div>
-        </div>
+        
         </footer >
                   )
 }
