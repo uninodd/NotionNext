@@ -13,9 +13,7 @@ const Footer = ({ title }) => {
     return currentYear
   })()
 
-  return (
-
-  )
+  return "";
 }
 
 export default Footer
