@@ -72,4 +72,6 @@ function MoreButton() {
             <div className='font-bold'>了解更多</div>
         </div>
     </Link>
+    <MoreButton />
+  </div>
 }
