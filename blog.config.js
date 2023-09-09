@@ -35,7 +35,7 @@ const BLOG = {
 
   NOTION_HOST: process.env.NEXT_PUBLIC_NOTION_HOST || 'https://www.notion.so', // Notion域名，您可以选择用自己的域名进行反向代理，如果不懂得什么是反向代理，请勿修改此项
 
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F488425be-6b65-4c3c-a100-e125475177d9%2Ff2ec4b6c-5917-4a22-b340-545b4dc2b7e7%2FICON.png?table=block&id=83c791d7-3656-4c13-a2ae-2ff595e4078e&spaceId=488425be-6b65-4c3c-a100-e125475177d9&width=2000&userId=17eda8fa-c091-4d88-88e4-411113b315e7&cache=v2', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://file.notion.so/f/f/488425be-6b65-4c3c-a100-e125475177d9/b898f951-7681-45a5-aa6e-dce09c50967c/ICON.png?id=22f4790a-31cc-415c-a1cb-f85a22706825&table=block&spaceId=488425be-6b65-4c3c-a100-e125475177d9&expirationTimestamp=1694325600000&signature=mksqoOVxRquvgOgapSAOeWKuTCkowjFE3-AbX8r6VM0&downloadName=ICON.png', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
 
   // START ************网站字体*****************
 
