@@ -358,11 +358,11 @@ function TodayCard({ cRef }) {
             <div className="text-xs font-light">{CONFIG.HERO_TITLE_4}</div>
             <div className="text-3xl font-bold">{CONFIG.HERO_TITLE_5}</div>
           </div>
-          <div
+          <div 
             onClick={handleClickMore}
             className={`'${
               isCoverUp ? '' : 'hidden pointer-events-none '
-            } flex items-center px-3 h-10 justify-center bg-[#425aef] hover:bg-[#4259efcb] transition-colors duration-100 rounded-3xl`}
+            } flex items-center px-3 h-10 justify-center bg-[#425aef] hover:bg-[#0d2b7d96] transition-colors duration-100 rounded-3xl`}
           >
             <PlusSmall
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
