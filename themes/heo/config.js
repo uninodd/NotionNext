@@ -29,12 +29,11 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🐶 森森鈴蘭的狗',
+    '🍀 箱箱內的風鈴草',
+    '🎬 佛系歌曲剪輯面',
+    '🖌️ 賽博龐克繪師',
+    '📸 攝影愛好者',
   ],
   INFO_CARD_URL: 'https://www.youtube.com/@uni_DD/about', // 个人资料底部按钮链接
 
@@ -113,7 +112,7 @@ const CONFIG = {
   MENU_SEARCH: true, // 显示搜索
 
   POST_LIST_COVER: true, // 列表显示文章封面
-  POST_LIST_COVER_HOVER_ENLARGE: true, // 列表鼠标悬停放大
+  POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
   POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   POST_LIST_SUMMARY: true, // 文章摘要
