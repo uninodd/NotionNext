@@ -30,9 +30,9 @@ export function InfoCard(props) {
                 </div>
             </div>
 
-            <h2 className='text-3xl font-extrabold mt-3'>
+            /*<h2 className='text-3xl font-extrabold mt-3'>
                 {BLOG.AUTHOR}
-            </h2>
+            </h2>*/
 
             {/* 公告栏 */}
             <div>
