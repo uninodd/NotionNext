@@ -248,7 +248,7 @@ const LayoutSlug = props => {
             {post?.type === 'Post' && <ArticleAdjacent {...props} />}
 
             {/* 底部公告 */}
-           //<Announcement {...props} /> 
+           /* Announcement {...props} */
 
             {/* 右侧文章目录 */}
             <CatalogWrapper post={post} />
